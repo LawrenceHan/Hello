@@ -4,11 +4,13 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CEB2E85BAD5A62B0D123EC0B10F5265A329CEEBA" : 9223372036854775807,
     "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : 9223372036854775807,
     "D21D4713FABC2D59EE78DBF5F956045CAB07734C" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4096994B-A08E-4DDB-9D0E-BCFB5551A39F",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CEB2E85BAD5A62B0D123EC0B10F5265A329CEEBA" : "Hello\/Packages\/SQLite-1.0.0\/",
     "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : "Hello\/Packages\/Jay-1.0.0\/",
     "D21D4713FABC2D59EE78DBF5F956045CAB07734C" : "Hello\/"
   },
@@ -20,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DanToml\/Jay.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vapor\/sqlite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CEB2E85BAD5A62B0D123EC0B10F5265A329CEEBA"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LawrenceHan\/Hello.git",
