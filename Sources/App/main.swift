@@ -1,8 +1,9 @@
 import Vapor
 import HTTP
-import VaporSQLite
+//import VaporSQLite
+import VaporMySQL
 
-let drop = Droplet(preparations:[Todo.self], providers:[VaporSQLite.Provider.self])
+let drop = Droplet(preparations:[Todo.self, Post.self], providers:[VaporMySQL.Provider.self])
 
 // Home page
 drop.get { req in
@@ -39,6 +40,13 @@ drop.get("*") { (req) -> ResponseRepresentable in
     }
     return "Hello \(path)"
 }
+
+// MARK: Todo list
+// Get todo list
+//drop.get("todolist") { (req) -> ResponseRepresentable in
+//    return
+//}
+
 
 drop.resource("posts", PostController())
 

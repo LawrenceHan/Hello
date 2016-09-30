@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		_LinkFileRef_Auth_via_App /* Auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Auth" /* Auth.framework */; };
 		_LinkFileRef_Auth_via_Vapor /* Auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Auth" /* Auth.framework */; };
+		_LinkFileRef_Auth_via_VaporMySQL /* Auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Auth" /* Auth.framework */; };
 		_LinkFileRef_Auth_via_VaporSQLite /* Auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Auth" /* Auth.framework */; };
 		_LinkFileRef_BCrypt_via_App /* BCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_BCrypt" /* BCrypt.framework */; };
 		_LinkFileRef_BCrypt_via_Auth /* BCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_BCrypt" /* BCrypt.framework */; };
@@ -24,6 +25,7 @@
 		_LinkFileRef_BCrypt_via_TypeSafeRouting /* BCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_BCrypt" /* BCrypt.framework */; };
 		_LinkFileRef_BCrypt_via_URI /* BCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_BCrypt" /* BCrypt.framework */; };
 		_LinkFileRef_BCrypt_via_Vapor /* BCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_BCrypt" /* BCrypt.framework */; };
+		_LinkFileRef_BCrypt_via_VaporMySQL /* BCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_BCrypt" /* BCrypt.framework */; };
 		_LinkFileRef_BCrypt_via_VaporSQLite /* BCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_BCrypt" /* BCrypt.framework */; };
 		_LinkFileRef_BCrypt_via_WebSockets /* BCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_BCrypt" /* BCrypt.framework */; };
 		_LinkFileRef_CLibreSSL_via_App /* CLibreSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibreSSL" /* CLibreSSL.framework */; };
@@ -47,11 +49,13 @@
 		_LinkFileRef_CLibreSSL_via_TypeSafeRouting /* CLibreSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibreSSL" /* CLibreSSL.framework */; };
 		_LinkFileRef_CLibreSSL_via_URI /* CLibreSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibreSSL" /* CLibreSSL.framework */; };
 		_LinkFileRef_CLibreSSL_via_Vapor /* CLibreSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibreSSL" /* CLibreSSL.framework */; };
+		_LinkFileRef_CLibreSSL_via_VaporMySQL /* CLibreSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibreSSL" /* CLibreSSL.framework */; };
 		_LinkFileRef_CLibreSSL_via_VaporSQLite /* CLibreSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibreSSL" /* CLibreSSL.framework */; };
 		_LinkFileRef_CLibreSSL_via_WebSockets /* CLibreSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CLibreSSL" /* CLibreSSL.framework */; };
 		_LinkFileRef_Cache_via_App /* Cache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cache" /* Cache.framework */; };
 		_LinkFileRef_Cache_via_Auth /* Cache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cache" /* Cache.framework */; };
 		_LinkFileRef_Cache_via_Vapor /* Cache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cache" /* Cache.framework */; };
+		_LinkFileRef_Cache_via_VaporMySQL /* Cache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cache" /* Cache.framework */; };
 		_LinkFileRef_Cache_via_VaporSQLite /* Cache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cache" /* Cache.framework */; };
 		_LinkFileRef_Cipher_via_App /* Cipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cipher" /* Cipher.framework */; };
 		_LinkFileRef_Cipher_via_Auth /* Cipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cipher" /* Cipher.framework */; };
@@ -67,6 +71,7 @@
 		_LinkFileRef_Cipher_via_TypeSafeRouting /* Cipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cipher" /* Cipher.framework */; };
 		_LinkFileRef_Cipher_via_URI /* Cipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cipher" /* Cipher.framework */; };
 		_LinkFileRef_Cipher_via_Vapor /* Cipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cipher" /* Cipher.framework */; };
+		_LinkFileRef_Cipher_via_VaporMySQL /* Cipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cipher" /* Cipher.framework */; };
 		_LinkFileRef_Cipher_via_VaporSQLite /* Cipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cipher" /* Cipher.framework */; };
 		_LinkFileRef_Cipher_via_WebSockets /* Cipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cipher" /* Cipher.framework */; };
 		_LinkFileRef_Console_via_App /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
@@ -79,11 +84,13 @@
 		_LinkFileRef_Console_via_Settings /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_TypeSafeRouting /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_Vapor /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
+		_LinkFileRef_Console_via_VaporMySQL /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_VaporSQLite /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Cookies_via_App /* Cookies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cookies" /* Cookies.framework */; };
 		_LinkFileRef_Cookies_via_Auth /* Cookies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cookies" /* Cookies.framework */; };
 		_LinkFileRef_Cookies_via_Sessions /* Cookies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cookies" /* Cookies.framework */; };
 		_LinkFileRef_Cookies_via_Vapor /* Cookies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cookies" /* Cookies.framework */; };
+		_LinkFileRef_Cookies_via_VaporMySQL /* Cookies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cookies" /* Cookies.framework */; };
 		_LinkFileRef_Cookies_via_VaporSQLite /* Cookies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Cookies" /* Cookies.framework */; };
 		_LinkFileRef_Core_via_App /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_Auth /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
@@ -93,6 +100,7 @@
 		_LinkFileRef_Core_via_Console /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_Cookies /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_Essentials /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
+		_LinkFileRef_Core_via_FluentMySQL /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_FluentSQLite /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_HMAC /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_HTTP /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
@@ -100,6 +108,7 @@
 		_LinkFileRef_Core_via_Hash /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_JSON /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_Leaf /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
+		_LinkFileRef_Core_via_MySQL /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_Random /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_Routing /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_SMTP /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
@@ -111,6 +120,7 @@
 		_LinkFileRef_Core_via_TypeSafeRouting /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_URI /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_Vapor /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
+		_LinkFileRef_Core_via_VaporMySQL /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_VaporSQLite /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Core_via_WebSockets /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
 		_LinkFileRef_Essentials_via_App /* Essentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Essentials" /* Essentials.framework */; };
@@ -132,14 +142,18 @@
 		_LinkFileRef_Essentials_via_TypeSafeRouting /* Essentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Essentials" /* Essentials.framework */; };
 		_LinkFileRef_Essentials_via_URI /* Essentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Essentials" /* Essentials.framework */; };
 		_LinkFileRef_Essentials_via_Vapor /* Essentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Essentials" /* Essentials.framework */; };
+		_LinkFileRef_Essentials_via_VaporMySQL /* Essentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Essentials" /* Essentials.framework */; };
 		_LinkFileRef_Essentials_via_VaporSQLite /* Essentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Essentials" /* Essentials.framework */; };
 		_LinkFileRef_Essentials_via_WebSockets /* Essentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Essentials" /* Essentials.framework */; };
+		_LinkFileRef_FluentMySQL_via_App /* FluentMySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_FluentMySQL" /* FluentMySQL.framework */; };
+		_LinkFileRef_FluentMySQL_via_VaporMySQL /* FluentMySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_FluentMySQL" /* FluentMySQL.framework */; };
 		_LinkFileRef_FluentSQLite_via_App /* FluentSQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_FluentSQLite" /* FluentSQLite.framework */; };
 		_LinkFileRef_FluentSQLite_via_VaporSQLite /* FluentSQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_FluentSQLite" /* FluentSQLite.framework */; };
 		_LinkFileRef_Fluent_via_App /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Fluent" /* Fluent.framework */; };
 		_LinkFileRef_Fluent_via_Auth /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Fluent" /* Fluent.framework */; };
 		_LinkFileRef_Fluent_via_Cache /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Fluent" /* Fluent.framework */; };
 		_LinkFileRef_Fluent_via_Cookies /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Fluent" /* Fluent.framework */; };
+		_LinkFileRef_Fluent_via_FluentMySQL /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Fluent" /* Fluent.framework */; };
 		_LinkFileRef_Fluent_via_FluentSQLite /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Fluent" /* Fluent.framework */; };
 		_LinkFileRef_Fluent_via_HTTPRouting /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Fluent" /* Fluent.framework */; };
 		_LinkFileRef_Fluent_via_Routing /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Fluent" /* Fluent.framework */; };
@@ -147,6 +161,7 @@
 		_LinkFileRef_Fluent_via_Settings /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Fluent" /* Fluent.framework */; };
 		_LinkFileRef_Fluent_via_TypeSafeRouting /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Fluent" /* Fluent.framework */; };
 		_LinkFileRef_Fluent_via_Vapor /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Fluent" /* Fluent.framework */; };
+		_LinkFileRef_Fluent_via_VaporMySQL /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Fluent" /* Fluent.framework */; };
 		_LinkFileRef_Fluent_via_VaporSQLite /* Fluent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Fluent" /* Fluent.framework */; };
 		_LinkFileRef_HMAC_via_App /* HMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HMAC" /* HMAC.framework */; };
 		_LinkFileRef_HMAC_via_Auth /* HMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HMAC" /* HMAC.framework */; };
@@ -162,11 +177,13 @@
 		_LinkFileRef_HMAC_via_TypeSafeRouting /* HMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HMAC" /* HMAC.framework */; };
 		_LinkFileRef_HMAC_via_URI /* HMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HMAC" /* HMAC.framework */; };
 		_LinkFileRef_HMAC_via_Vapor /* HMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HMAC" /* HMAC.framework */; };
+		_LinkFileRef_HMAC_via_VaporMySQL /* HMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HMAC" /* HMAC.framework */; };
 		_LinkFileRef_HMAC_via_VaporSQLite /* HMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HMAC" /* HMAC.framework */; };
 		_LinkFileRef_HMAC_via_WebSockets /* HMAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HMAC" /* HMAC.framework */; };
 		_LinkFileRef_HTTPRouting_via_App /* HTTPRouting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTPRouting" /* HTTPRouting.framework */; };
 		_LinkFileRef_HTTPRouting_via_TypeSafeRouting /* HTTPRouting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTPRouting" /* HTTPRouting.framework */; };
 		_LinkFileRef_HTTPRouting_via_Vapor /* HTTPRouting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTPRouting" /* HTTPRouting.framework */; };
+		_LinkFileRef_HTTPRouting_via_VaporMySQL /* HTTPRouting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTPRouting" /* HTTPRouting.framework */; };
 		_LinkFileRef_HTTPRouting_via_VaporSQLite /* HTTPRouting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTPRouting" /* HTTPRouting.framework */; };
 		_LinkFileRef_HTTP_via_App /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* HTTP.framework */; };
 		_LinkFileRef_HTTP_via_Auth /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* HTTP.framework */; };
@@ -178,6 +195,7 @@
 		_LinkFileRef_HTTP_via_Settings /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* HTTP.framework */; };
 		_LinkFileRef_HTTP_via_TypeSafeRouting /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* HTTP.framework */; };
 		_LinkFileRef_HTTP_via_Vapor /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* HTTP.framework */; };
+		_LinkFileRef_HTTP_via_VaporMySQL /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* HTTP.framework */; };
 		_LinkFileRef_HTTP_via_VaporSQLite /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* HTTP.framework */; };
 		_LinkFileRef_HTTP_via_WebSockets /* HTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* HTTP.framework */; };
 		_LinkFileRef_Hash_via_App /* Hash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Hash" /* Hash.framework */; };
@@ -194,30 +212,37 @@
 		_LinkFileRef_Hash_via_TypeSafeRouting /* Hash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Hash" /* Hash.framework */; };
 		_LinkFileRef_Hash_via_URI /* Hash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Hash" /* Hash.framework */; };
 		_LinkFileRef_Hash_via_Vapor /* Hash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Hash" /* Hash.framework */; };
+		_LinkFileRef_Hash_via_VaporMySQL /* Hash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Hash" /* Hash.framework */; };
 		_LinkFileRef_Hash_via_VaporSQLite /* Hash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Hash" /* Hash.framework */; };
 		_LinkFileRef_Hash_via_WebSockets /* Hash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Hash" /* Hash.framework */; };
 		_LinkFileRef_JSON_via_App /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
 		_LinkFileRef_JSON_via_Auth /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
 		_LinkFileRef_JSON_via_Cache /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
 		_LinkFileRef_JSON_via_Cookies /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
+		_LinkFileRef_JSON_via_FluentMySQL /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
 		_LinkFileRef_JSON_via_HTTPRouting /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
+		_LinkFileRef_JSON_via_MySQL /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
 		_LinkFileRef_JSON_via_Routing /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
 		_LinkFileRef_JSON_via_Sessions /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
 		_LinkFileRef_JSON_via_Settings /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
 		_LinkFileRef_JSON_via_TypeSafeRouting /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
 		_LinkFileRef_JSON_via_Vapor /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
+		_LinkFileRef_JSON_via_VaporMySQL /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
 		_LinkFileRef_JSON_via_VaporSQLite /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSON" /* JSON.framework */; };
 		_LinkFileRef_Jay_via_App /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
 		_LinkFileRef_Jay_via_Auth /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
 		_LinkFileRef_Jay_via_Cache /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
 		_LinkFileRef_Jay_via_Cookies /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
+		_LinkFileRef_Jay_via_FluentMySQL /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
 		_LinkFileRef_Jay_via_HTTPRouting /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
 		_LinkFileRef_Jay_via_JSON /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
+		_LinkFileRef_Jay_via_MySQL /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
 		_LinkFileRef_Jay_via_Routing /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
 		_LinkFileRef_Jay_via_Sessions /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
 		_LinkFileRef_Jay_via_Settings /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
 		_LinkFileRef_Jay_via_TypeSafeRouting /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
 		_LinkFileRef_Jay_via_Vapor /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
+		_LinkFileRef_Jay_via_VaporMySQL /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
 		_LinkFileRef_Jay_via_VaporSQLite /* Jay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Jay" /* Jay.framework */; };
 		_LinkFileRef_Leaf_via_App /* Leaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Leaf" /* Leaf.framework */; };
 		_LinkFileRef_Leaf_via_Auth /* Leaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Leaf" /* Leaf.framework */; };
@@ -229,37 +254,47 @@
 		_LinkFileRef_Leaf_via_Settings /* Leaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Leaf" /* Leaf.framework */; };
 		_LinkFileRef_Leaf_via_TypeSafeRouting /* Leaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Leaf" /* Leaf.framework */; };
 		_LinkFileRef_Leaf_via_Vapor /* Leaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Leaf" /* Leaf.framework */; };
+		_LinkFileRef_Leaf_via_VaporMySQL /* Leaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Leaf" /* Leaf.framework */; };
 		_LinkFileRef_Leaf_via_VaporSQLite /* Leaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Leaf" /* Leaf.framework */; };
+		_LinkFileRef_MySQL_via_App /* MySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MySQL" /* MySQL.framework */; };
+		_LinkFileRef_MySQL_via_FluentMySQL /* MySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MySQL" /* MySQL.framework */; };
+		_LinkFileRef_MySQL_via_VaporMySQL /* MySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MySQL" /* MySQL.framework */; };
 		_LinkFileRef_Node_via_App /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_Node_via_Auth /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_Node_via_Cache /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_Node_via_Cookies /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_Node_via_Fluent /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
+		_LinkFileRef_Node_via_FluentMySQL /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_Node_via_FluentSQLite /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_Node_via_HTTPRouting /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_Node_via_JSON /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_Node_via_Leaf /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
+		_LinkFileRef_Node_via_MySQL /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_Node_via_Routing /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_Node_via_Sessions /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_Node_via_Settings /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_Node_via_TypeSafeRouting /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_Node_via_Vapor /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
+		_LinkFileRef_Node_via_VaporMySQL /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_Node_via_VaporSQLite /* Node.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Node" /* Node.framework */; };
 		_LinkFileRef_PathIndexable_via_App /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_Auth /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_Cache /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_Cookies /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_Fluent /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
+		_LinkFileRef_PathIndexable_via_FluentMySQL /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_FluentSQLite /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_HTTPRouting /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_JSON /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_Leaf /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
+		_LinkFileRef_PathIndexable_via_MySQL /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_Node /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_Routing /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_Sessions /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_Settings /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_TypeSafeRouting /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_Vapor /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
+		_LinkFileRef_PathIndexable_via_VaporMySQL /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_PathIndexable_via_VaporSQLite /* PathIndexable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathIndexable" /* PathIndexable.framework */; };
 		_LinkFileRef_Polymorphic_via_App /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Polymorphic_via_Auth /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
@@ -267,16 +302,19 @@
 		_LinkFileRef_Polymorphic_via_Console /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Polymorphic_via_Cookies /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Polymorphic_via_Fluent /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
+		_LinkFileRef_Polymorphic_via_FluentMySQL /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Polymorphic_via_FluentSQLite /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Polymorphic_via_HTTPRouting /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Polymorphic_via_JSON /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Polymorphic_via_Leaf /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
+		_LinkFileRef_Polymorphic_via_MySQL /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Polymorphic_via_Node /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Polymorphic_via_Routing /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Polymorphic_via_Sessions /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Polymorphic_via_Settings /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Polymorphic_via_TypeSafeRouting /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Polymorphic_via_Vapor /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
+		_LinkFileRef_Polymorphic_via_VaporMySQL /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Polymorphic_via_VaporSQLite /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
 		_LinkFileRef_Random_via_App /* Random.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Random" /* Random.framework */; };
 		_LinkFileRef_Random_via_Auth /* Random.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Random" /* Random.framework */; };
@@ -295,12 +333,14 @@
 		_LinkFileRef_Random_via_TypeSafeRouting /* Random.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Random" /* Random.framework */; };
 		_LinkFileRef_Random_via_URI /* Random.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Random" /* Random.framework */; };
 		_LinkFileRef_Random_via_Vapor /* Random.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Random" /* Random.framework */; };
+		_LinkFileRef_Random_via_VaporMySQL /* Random.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Random" /* Random.framework */; };
 		_LinkFileRef_Random_via_VaporSQLite /* Random.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Random" /* Random.framework */; };
 		_LinkFileRef_Random_via_WebSockets /* Random.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Random" /* Random.framework */; };
 		_LinkFileRef_Routing_via_App /* Routing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Routing" /* Routing.framework */; };
 		_LinkFileRef_Routing_via_HTTPRouting /* Routing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Routing" /* Routing.framework */; };
 		_LinkFileRef_Routing_via_TypeSafeRouting /* Routing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Routing" /* Routing.framework */; };
 		_LinkFileRef_Routing_via_Vapor /* Routing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Routing" /* Routing.framework */; };
+		_LinkFileRef_Routing_via_VaporMySQL /* Routing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Routing" /* Routing.framework */; };
 		_LinkFileRef_Routing_via_VaporSQLite /* Routing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Routing" /* Routing.framework */; };
 		_LinkFileRef_SMTP_via_App /* SMTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SMTP" /* SMTP.framework */; };
 		_LinkFileRef_SMTP_via_Auth /* SMTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SMTP" /* SMTP.framework */; };
@@ -312,15 +352,18 @@
 		_LinkFileRef_SMTP_via_Settings /* SMTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SMTP" /* SMTP.framework */; };
 		_LinkFileRef_SMTP_via_TypeSafeRouting /* SMTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SMTP" /* SMTP.framework */; };
 		_LinkFileRef_SMTP_via_Vapor /* SMTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SMTP" /* SMTP.framework */; };
+		_LinkFileRef_SMTP_via_VaporMySQL /* SMTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SMTP" /* SMTP.framework */; };
 		_LinkFileRef_SMTP_via_VaporSQLite /* SMTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SMTP" /* SMTP.framework */; };
 		_LinkFileRef_SQLite_via_App /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SQLite" /* SQLite.framework */; };
 		_LinkFileRef_SQLite_via_FluentSQLite /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SQLite" /* SQLite.framework */; };
 		_LinkFileRef_SQLite_via_VaporSQLite /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SQLite" /* SQLite.framework */; };
 		_LinkFileRef_Sessions_via_App /* Sessions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Sessions" /* Sessions.framework */; };
 		_LinkFileRef_Sessions_via_Vapor /* Sessions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Sessions" /* Sessions.framework */; };
+		_LinkFileRef_Sessions_via_VaporMySQL /* Sessions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Sessions" /* Sessions.framework */; };
 		_LinkFileRef_Sessions_via_VaporSQLite /* Sessions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Sessions" /* Sessions.framework */; };
 		_LinkFileRef_Settings_via_App /* Settings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Settings" /* Settings.framework */; };
 		_LinkFileRef_Settings_via_Vapor /* Settings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Settings" /* Settings.framework */; };
+		_LinkFileRef_Settings_via_VaporMySQL /* Settings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Settings" /* Settings.framework */; };
 		_LinkFileRef_Settings_via_VaporSQLite /* Settings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Settings" /* Settings.framework */; };
 		_LinkFileRef_SocksCore_via_App /* SocksCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SocksCore" /* SocksCore.framework */; };
 		_LinkFileRef_SocksCore_via_Auth /* SocksCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SocksCore" /* SocksCore.framework */; };
@@ -338,6 +381,7 @@
 		_LinkFileRef_SocksCore_via_TypeSafeRouting /* SocksCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SocksCore" /* SocksCore.framework */; };
 		_LinkFileRef_SocksCore_via_URI /* SocksCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SocksCore" /* SocksCore.framework */; };
 		_LinkFileRef_SocksCore_via_Vapor /* SocksCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SocksCore" /* SocksCore.framework */; };
+		_LinkFileRef_SocksCore_via_VaporMySQL /* SocksCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SocksCore" /* SocksCore.framework */; };
 		_LinkFileRef_SocksCore_via_VaporSQLite /* SocksCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SocksCore" /* SocksCore.framework */; };
 		_LinkFileRef_SocksCore_via_WebSockets /* SocksCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SocksCore" /* SocksCore.framework */; };
 		_LinkFileRef_Socks_via_App /* Socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socks" /* Socks.framework */; };
@@ -355,6 +399,7 @@
 		_LinkFileRef_Socks_via_TypeSafeRouting /* Socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socks" /* Socks.framework */; };
 		_LinkFileRef_Socks_via_URI /* Socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socks" /* Socks.framework */; };
 		_LinkFileRef_Socks_via_Vapor /* Socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socks" /* Socks.framework */; };
+		_LinkFileRef_Socks_via_VaporMySQL /* Socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socks" /* Socks.framework */; };
 		_LinkFileRef_Socks_via_VaporSQLite /* Socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socks" /* Socks.framework */; };
 		_LinkFileRef_Socks_via_WebSockets /* Socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Socks" /* Socks.framework */; };
 		_LinkFileRef_TLS_via_App /* TLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TLS" /* TLS.framework */; };
@@ -371,6 +416,7 @@
 		_LinkFileRef_TLS_via_TypeSafeRouting /* TLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TLS" /* TLS.framework */; };
 		_LinkFileRef_TLS_via_URI /* TLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TLS" /* TLS.framework */; };
 		_LinkFileRef_TLS_via_Vapor /* TLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TLS" /* TLS.framework */; };
+		_LinkFileRef_TLS_via_VaporMySQL /* TLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TLS" /* TLS.framework */; };
 		_LinkFileRef_TLS_via_VaporSQLite /* TLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TLS" /* TLS.framework */; };
 		_LinkFileRef_TLS_via_WebSockets /* TLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TLS" /* TLS.framework */; };
 		_LinkFileRef_Transport_via_App /* Transport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Transport" /* Transport.framework */; };
@@ -385,6 +431,7 @@
 		_LinkFileRef_Transport_via_Settings /* Transport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Transport" /* Transport.framework */; };
 		_LinkFileRef_Transport_via_TypeSafeRouting /* Transport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Transport" /* Transport.framework */; };
 		_LinkFileRef_Transport_via_Vapor /* Transport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Transport" /* Transport.framework */; };
+		_LinkFileRef_Transport_via_VaporMySQL /* Transport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Transport" /* Transport.framework */; };
 		_LinkFileRef_Transport_via_VaporSQLite /* Transport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Transport" /* Transport.framework */; };
 		_LinkFileRef_Transport_via_WebSockets /* Transport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Transport" /* Transport.framework */; };
 		_LinkFileRef_TurnstileCrypto_via_App /* TurnstileCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TurnstileCrypto" /* TurnstileCrypto.framework */; };
@@ -399,6 +446,7 @@
 		_LinkFileRef_TurnstileCrypto_via_TurnstileWeb /* TurnstileCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TurnstileCrypto" /* TurnstileCrypto.framework */; };
 		_LinkFileRef_TurnstileCrypto_via_TypeSafeRouting /* TurnstileCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TurnstileCrypto" /* TurnstileCrypto.framework */; };
 		_LinkFileRef_TurnstileCrypto_via_Vapor /* TurnstileCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TurnstileCrypto" /* TurnstileCrypto.framework */; };
+		_LinkFileRef_TurnstileCrypto_via_VaporMySQL /* TurnstileCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TurnstileCrypto" /* TurnstileCrypto.framework */; };
 		_LinkFileRef_TurnstileCrypto_via_VaporSQLite /* TurnstileCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TurnstileCrypto" /* TurnstileCrypto.framework */; };
 		_LinkFileRef_TurnstileWeb_via_App /* TurnstileWeb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TurnstileWeb" /* TurnstileWeb.framework */; };
 		_LinkFileRef_TurnstileWeb_via_Auth /* TurnstileWeb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TurnstileWeb" /* TurnstileWeb.framework */; };
@@ -410,6 +458,7 @@
 		_LinkFileRef_TurnstileWeb_via_Settings /* TurnstileWeb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TurnstileWeb" /* TurnstileWeb.framework */; };
 		_LinkFileRef_TurnstileWeb_via_TypeSafeRouting /* TurnstileWeb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TurnstileWeb" /* TurnstileWeb.framework */; };
 		_LinkFileRef_TurnstileWeb_via_Vapor /* TurnstileWeb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TurnstileWeb" /* TurnstileWeb.framework */; };
+		_LinkFileRef_TurnstileWeb_via_VaporMySQL /* TurnstileWeb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TurnstileWeb" /* TurnstileWeb.framework */; };
 		_LinkFileRef_TurnstileWeb_via_VaporSQLite /* TurnstileWeb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TurnstileWeb" /* TurnstileWeb.framework */; };
 		_LinkFileRef_Turnstile_via_App /* Turnstile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Turnstile" /* Turnstile.framework */; };
 		_LinkFileRef_Turnstile_via_Auth /* Turnstile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Turnstile" /* Turnstile.framework */; };
@@ -422,9 +471,11 @@
 		_LinkFileRef_Turnstile_via_TurnstileWeb /* Turnstile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Turnstile" /* Turnstile.framework */; };
 		_LinkFileRef_Turnstile_via_TypeSafeRouting /* Turnstile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Turnstile" /* Turnstile.framework */; };
 		_LinkFileRef_Turnstile_via_Vapor /* Turnstile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Turnstile" /* Turnstile.framework */; };
+		_LinkFileRef_Turnstile_via_VaporMySQL /* Turnstile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Turnstile" /* Turnstile.framework */; };
 		_LinkFileRef_Turnstile_via_VaporSQLite /* Turnstile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Turnstile" /* Turnstile.framework */; };
 		_LinkFileRef_TypeSafeRouting_via_App /* TypeSafeRouting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TypeSafeRouting" /* TypeSafeRouting.framework */; };
 		_LinkFileRef_TypeSafeRouting_via_Vapor /* TypeSafeRouting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TypeSafeRouting" /* TypeSafeRouting.framework */; };
+		_LinkFileRef_TypeSafeRouting_via_VaporMySQL /* TypeSafeRouting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TypeSafeRouting" /* TypeSafeRouting.framework */; };
 		_LinkFileRef_TypeSafeRouting_via_VaporSQLite /* TypeSafeRouting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TypeSafeRouting" /* TypeSafeRouting.framework */; };
 		_LinkFileRef_URI_via_App /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
 		_LinkFileRef_URI_via_Auth /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
@@ -437,10 +488,13 @@
 		_LinkFileRef_URI_via_Settings /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
 		_LinkFileRef_URI_via_TypeSafeRouting /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
 		_LinkFileRef_URI_via_Vapor /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
+		_LinkFileRef_URI_via_VaporMySQL /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
 		_LinkFileRef_URI_via_VaporSQLite /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
 		_LinkFileRef_URI_via_WebSockets /* URI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* URI.framework */; };
+		_LinkFileRef_VaporMySQL_via_App /* VaporMySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_VaporMySQL" /* VaporMySQL.framework */; };
 		_LinkFileRef_VaporSQLite_via_App /* VaporSQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_VaporSQLite" /* VaporSQLite.framework */; };
 		_LinkFileRef_Vapor_via_App /* Vapor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Vapor" /* Vapor.framework */; };
+		_LinkFileRef_Vapor_via_VaporMySQL /* Vapor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Vapor" /* Vapor.framework */; };
 		_LinkFileRef_Vapor_via_VaporSQLite /* Vapor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Vapor" /* Vapor.framework */; };
 		_LinkFileRef_WebSockets_via_App /* WebSockets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_WebSockets" /* WebSockets.framework */; };
 		_LinkFileRef_WebSockets_via_Auth /* WebSockets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_WebSockets" /* WebSockets.framework */; };
@@ -452,6 +506,7 @@
 		_LinkFileRef_WebSockets_via_Settings /* WebSockets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_WebSockets" /* WebSockets.framework */; };
 		_LinkFileRef_WebSockets_via_TypeSafeRouting /* WebSockets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_WebSockets" /* WebSockets.framework */; };
 		_LinkFileRef_WebSockets_via_Vapor /* WebSockets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_WebSockets" /* WebSockets.framework */; };
+		_LinkFileRef_WebSockets_via_VaporMySQL /* WebSockets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_WebSockets" /* WebSockets.framework */; };
 		_LinkFileRef_WebSockets_via_VaporSQLite /* WebSockets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_WebSockets" /* WebSockets.framework */; };
 		_LinkFileRef_libc_via_App /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_Auth /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
@@ -462,6 +517,7 @@
 		_LinkFileRef_libc_via_Cookies /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_Core /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_Essentials /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
+		_LinkFileRef_libc_via_FluentMySQL /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_FluentSQLite /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_HMAC /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_HTTP /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
@@ -469,6 +525,7 @@
 		_LinkFileRef_libc_via_Hash /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_JSON /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_Leaf /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
+		_LinkFileRef_libc_via_MySQL /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_Random /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_Routing /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_SMTP /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
@@ -480,6 +537,7 @@
 		_LinkFileRef_libc_via_TypeSafeRouting /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_URI /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_Vapor /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
+		_LinkFileRef_libc_via_VaporMySQL /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_VaporSQLite /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_WebSockets /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		"__src_cc_ref_Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/a_bitstr.c" /* a_bitstr.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/a_bitstr.c" /* a_bitstr.c */; };
@@ -1295,6 +1353,8 @@
 		"__src_cc_ref_Packages/Fluent-1.0.1/Sources/Fluent/Schema/Schema+Modifier.swift" /* Schema/Schema+Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Fluent-1.0.1/Sources/Fluent/Schema/Schema+Modifier.swift" /* Schema/Schema+Modifier.swift */; };
 		"__src_cc_ref_Packages/Fluent-1.0.1/Sources/Fluent/Schema/Schema.swift" /* Schema/Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Fluent-1.0.1/Sources/Fluent/Schema/Schema.swift" /* Schema/Schema.swift */; };
 		"__src_cc_ref_Packages/Fluent-1.0.1/Sources/Fluent/Utilities/Fluent+Node.swift" /* Utilities/Fluent+Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Fluent-1.0.1/Sources/Fluent/Utilities/Fluent+Node.swift" /* Utilities/Fluent+Node.swift */; };
+		"__src_cc_ref_Packages/FluentMySQL-1.0.0/Sources/FluentMySQL/MySQLDriver.swift" /* MySQLDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/FluentMySQL-1.0.0/Sources/FluentMySQL/MySQLDriver.swift" /* MySQLDriver.swift */; };
+		"__src_cc_ref_Packages/FluentMySQL-1.0.0/Sources/FluentMySQL/MySQLSerializer.swift" /* MySQLSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/FluentMySQL-1.0.0/Sources/FluentMySQL/MySQLSerializer.swift" /* MySQLSerializer.swift */; };
 		"__src_cc_ref_Packages/FluentSQLite-1.0.0/Sources/FluentSQLite/SQLiteDriver.swift" /* SQLiteDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/FluentSQLite-1.0.0/Sources/FluentSQLite/SQLiteDriver.swift" /* SQLiteDriver.swift */; };
 		"__src_cc_ref_Packages/JSON-1.0.0/Sources/JSON/JSON+Bytes.swift" /* JSON+Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/JSON-1.0.0/Sources/JSON/JSON+Bytes.swift" /* JSON+Bytes.swift */; };
 		"__src_cc_ref_Packages/JSON-1.0.0/Sources/JSON/JSON+Equatable.swift" /* JSON+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/JSON-1.0.0/Sources/JSON/JSON+Equatable.swift" /* JSON+Equatable.swift */; };
@@ -1357,6 +1417,16 @@
 		"__src_cc_ref_Packages/Leaf-1.0.1/Sources/Leaf/Tag/Models/Variable.swift" /* Tag/Models/Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Leaf-1.0.1/Sources/Leaf/Tag/Models/Variable.swift" /* Tag/Models/Variable.swift */; };
 		"__src_cc_ref_Packages/Leaf-1.0.1/Sources/Leaf/Tag/Tag.swift" /* Tag/Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Leaf-1.0.1/Sources/Leaf/Tag/Tag.swift" /* Tag/Tag.swift */; };
 		"__src_cc_ref_Packages/Leaf-1.0.1/Sources/Leaf/Tag/TagTemplate.swift" /* Tag/TagTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Leaf-1.0.1/Sources/Leaf/Tag/TagTemplate.swift" /* Tag/TagTemplate.swift */; };
+		"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Bind+Node.swift" /* Bind+Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Bind+Node.swift" /* Bind+Node.swift */; };
+		"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Bind.swift" /* Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Bind.swift" /* Bind.swift */; };
+		"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Binds.swift" /* Binds.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Binds.swift" /* Binds.swift */; };
+		"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Connection.swift" /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Connection.swift" /* Connection.swift */; };
+		"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Database.swift" /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Database.swift" /* Database.swift */; };
+		"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Error.swift" /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Error.swift" /* Error.swift */; };
+		"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Field+Variant.swift" /* Field+Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Field+Variant.swift" /* Field+Variant.swift */; };
+		"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Field.swift" /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Field.swift" /* Field.swift */; };
+		"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Fields.swift" /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Fields.swift" /* Fields.swift */; };
+		"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/MySQL+Node.swift" /* MySQL+Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/MySQL+Node.swift" /* MySQL+Node.swift */; };
 		"__src_cc_ref_Packages/Node-1.0.0/Sources/Node/Convertible/Bool+Convertible.swift" /* Convertible/Bool+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Node-1.0.0/Sources/Node/Convertible/Bool+Convertible.swift" /* Convertible/Bool+Convertible.swift */; };
 		"__src_cc_ref_Packages/Node-1.0.0/Sources/Node/Convertible/Context.swift" /* Convertible/Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Node-1.0.0/Sources/Node/Convertible/Context.swift" /* Convertible/Context.swift */; };
 		"__src_cc_ref_Packages/Node-1.0.0/Sources/Node/Convertible/Convertible+Init.swift" /* Convertible/Convertible+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Node-1.0.0/Sources/Node/Convertible/Convertible+Init.swift" /* Convertible/Convertible+Init.swift */; };
@@ -1578,6 +1648,7 @@
 		"__src_cc_ref_Packages/Vapor-1.0.2/Sources/Vapor/View/View.swift" /* View/View.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Vapor-1.0.2/Sources/Vapor/View/View.swift" /* View/View.swift */; };
 		"__src_cc_ref_Packages/Vapor-1.0.2/Sources/Vapor/View/ViewRenderer.swift" /* View/ViewRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Vapor-1.0.2/Sources/Vapor/View/ViewRenderer.swift" /* View/ViewRenderer.swift */; };
 		"__src_cc_ref_Packages/Vapor-1.0.2/Sources/Vapor/WebSockets/WebSockets.swift" /* WebSockets/WebSockets.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Vapor-1.0.2/Sources/Vapor/WebSockets/WebSockets.swift" /* WebSockets/WebSockets.swift */; };
+		"__src_cc_ref_Packages/VaporMySQL-1.0.0/Sources/VaporMySQL/Provider.swift" /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/VaporMySQL-1.0.0/Sources/VaporMySQL/Provider.swift" /* Provider.swift */; };
 		"__src_cc_ref_Packages/VaporSQLite-1.0.0/Sources/VaporSQLite/Provider.swift" /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/VaporSQLite-1.0.0/Sources/VaporSQLite/Provider.swift" /* Provider.swift */; };
 		__src_cc_ref_Sources/App/Controllers/PostController.swift /* Controllers/PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/App/Controllers/PostController.swift /* Controllers/PostController.swift */; };
 		__src_cc_ref_Sources/App/Models/Post.swift /* Models/Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/App/Models/Post.swift /* Models/Post.swift */; };
@@ -1586,290 +1657,310 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0281E7AE1D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB262A1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Core";
 			remoteInfo = Core;
 		};
-		0281E7AF1D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB262B1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_libc";
 			remoteInfo = libc;
 		};
-		0281E7B01D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB262C1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_CLibreSSL";
 			remoteInfo = CLibreSSL;
 		};
-		0281E7B11D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB262D1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_BCrypt";
 			remoteInfo = BCrypt;
 		};
-		0281E7B21D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB262E1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Random";
 			remoteInfo = Random;
 		};
-		0281E7B31D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB262F1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Essentials";
 			remoteInfo = Essentials;
 		};
-		0281E7B41D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26301D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Cipher";
 			remoteInfo = Cipher;
 		};
-		0281E7B51D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26311D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Hash";
 			remoteInfo = Hash;
 		};
-		0281E7B61D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26321D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_HMAC";
 			remoteInfo = HMAC;
 		};
-		0281E7B71D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26331D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PathIndexable";
 			remoteInfo = PathIndexable;
 		};
-		0281E7B81D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26341D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Polymorphic";
 			remoteInfo = Polymorphic;
 		};
-		0281E7B91D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26351D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Node";
 			remoteInfo = Node;
 		};
-		0281E7BA1D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26361D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Fluent";
 			remoteInfo = Fluent;
 		};
-		0281E7BB1D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26371D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Socks";
 			remoteInfo = Socks;
 		};
-		0281E7BC1D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26381D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SocksCore";
 			remoteInfo = SocksCore;
 		};
-		0281E7BD1D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26391D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_TLS";
 			remoteInfo = TLS;
 		};
-		0281E7BE1D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB263A1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_HTTP";
 			remoteInfo = HTTP;
 		};
-		0281E7BF1D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB263B1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_URI";
 			remoteInfo = URI;
 		};
-		0281E7C01D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB263C1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Transport";
 			remoteInfo = Transport;
 		};
-		0281E7C11D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB263D1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SMTP";
 			remoteInfo = SMTP;
 		};
-		0281E7C21D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB263E1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_WebSockets";
 			remoteInfo = WebSockets;
 		};
-		0281E7C31D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB263F1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Console";
 			remoteInfo = Console;
 		};
-		0281E7C41D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26401D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Jay";
 			remoteInfo = Jay;
 		};
-		0281E7C51D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26411D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_JSON";
 			remoteInfo = JSON;
 		};
-		0281E7C61D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26421D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Turnstile";
 			remoteInfo = Turnstile;
 		};
-		0281E7C71D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26431D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_TurnstileCrypto";
 			remoteInfo = TurnstileCrypto;
 		};
-		0281E7C81D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26441D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_TurnstileWeb";
 			remoteInfo = TurnstileWeb;
 		};
-		0281E7C91D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26451D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Leaf";
 			remoteInfo = Leaf;
 		};
-		0281E7CA1D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26461D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Auth";
 			remoteInfo = Auth;
 		};
-		0281E7CB1D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26471D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Cookies";
 			remoteInfo = Cookies;
 		};
-		0281E7CC1D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26481D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Cache";
 			remoteInfo = Cache;
 		};
-		0281E7CD1D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26491D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_HTTPRouting";
 			remoteInfo = HTTPRouting;
 		};
-		0281E7CE1D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB264A1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Routing";
 			remoteInfo = Routing;
 		};
-		0281E7CF1D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB264B1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Sessions";
 			remoteInfo = Sessions;
 		};
-		0281E7D01D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB264C1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Settings";
 			remoteInfo = Settings;
 		};
-		0281E7D11D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB264D1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_TypeSafeRouting";
 			remoteInfo = TypeSafeRouting;
 		};
-		0281E7D21D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB264E1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Vapor";
 			remoteInfo = Vapor;
 		};
-		0281E7D31D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB264F1D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_SQLite";
 			remoteInfo = SQLite;
 		};
-		0281E7D41D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26501D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_FluentSQLite";
 			remoteInfo = FluentSQLite;
 		};
-		0281E7D51D9E15A000DC3AE5 /* PBXContainerItemProxy */ = {
+		02BB26511D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_VaporSQLite";
 			remoteInfo = VaporSQLite;
 		};
+		02BB26521D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_MySQL";
+			remoteInfo = MySQL;
+		};
+		02BB26531D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_FluentMySQL";
+			remoteInfo = FluentMySQL;
+		};
+		02BB26541D9E398B0029F8B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_VaporMySQL";
+			remoteInfo = VaporMySQL;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0281E7D71D9E1BAE00DC3AE5 /* database.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.sqlite; sourceTree = "<group>"; };
 		__PBXFileRef_Config /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Config; sourceTree = "<group>"; };
 		__PBXFileRef_Hello.xcodeproj/Configs/Project.xcconfig /* Hello.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Hello.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
 		__PBXFileRef_Localization /* Localization */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Localization; sourceTree = "<group>"; };
@@ -2687,6 +2778,8 @@
 		"__PBXFileRef_Packages/Fluent-1.0.1/Sources/Fluent/Schema/Schema+Modifier.swift" /* Schema/Schema+Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Schema/Schema+Modifier.swift"; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Fluent-1.0.1/Sources/Fluent/Schema/Schema.swift" /* Schema/Schema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schema/Schema.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Fluent-1.0.1/Sources/Fluent/Utilities/Fluent+Node.swift" /* Utilities/Fluent+Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities/Fluent+Node.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/FluentMySQL-1.0.0/Sources/FluentMySQL/MySQLDriver.swift" /* MySQLDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQLDriver.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/FluentMySQL-1.0.0/Sources/FluentMySQL/MySQLSerializer.swift" /* MySQLSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySQLSerializer.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/FluentSQLite-1.0.0/Sources/FluentSQLite/SQLiteDriver.swift" /* SQLiteDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDriver.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/JSON-1.0.0/Sources/JSON/JSON+Bytes.swift" /* JSON+Bytes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSON+Bytes.swift"; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/JSON-1.0.0/Sources/JSON/JSON+Equatable.swift" /* JSON+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSON+Equatable.swift"; sourceTree = "<group>"; };
@@ -2749,6 +2842,16 @@
 		"__PBXFileRef_Packages/Leaf-1.0.1/Sources/Leaf/Tag/Models/Variable.swift" /* Tag/Models/Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag/Models/Variable.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Leaf-1.0.1/Sources/Leaf/Tag/Tag.swift" /* Tag/Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag/Tag.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Leaf-1.0.1/Sources/Leaf/Tag/TagTemplate.swift" /* Tag/TagTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag/TagTemplate.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Bind+Node.swift" /* Bind+Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bind+Node.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Bind.swift" /* Bind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bind.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Binds.swift" /* Binds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binds.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Connection.swift" /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Database.swift" /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Error.swift" /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Field+Variant.swift" /* Field+Variant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Field+Variant.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Field.swift" /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Fields.swift" /* Fields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/MySQL+Node.swift" /* MySQL+Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MySQL+Node.swift"; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Node-1.0.0/Sources/Node/Convertible/Bool+Convertible.swift" /* Convertible/Bool+Convertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Convertible/Bool+Convertible.swift"; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Node-1.0.0/Sources/Node/Convertible/Context.swift" /* Convertible/Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convertible/Context.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Node-1.0.0/Sources/Node/Convertible/Convertible+Init.swift" /* Convertible/Convertible+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Convertible/Convertible+Init.swift"; sourceTree = "<group>"; };
@@ -2970,6 +3073,7 @@
 		"__PBXFileRef_Packages/Vapor-1.0.2/Sources/Vapor/View/View.swift" /* View/View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View/View.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Vapor-1.0.2/Sources/Vapor/View/ViewRenderer.swift" /* View/ViewRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View/ViewRenderer.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Vapor-1.0.2/Sources/Vapor/WebSockets/WebSockets.swift" /* WebSockets/WebSockets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSockets/WebSockets.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/VaporMySQL-1.0.0/Sources/VaporMySQL/Provider.swift" /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/VaporSQLite-1.0.0/Sources/VaporSQLite/Provider.swift" /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Public /* Public */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Public; sourceTree = "<group>"; };
 		__PBXFileRef_Resources /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
@@ -2977,6 +3081,7 @@
 		__PBXFileRef_Sources/App/Models/Post.swift /* Models/Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Post.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/App/Models/Todo.swift /* Models/Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Todo.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/App/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		__PBXFileRef_sqlite /* sqlite */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sqlite; sourceTree = "<group>"; };
 		"_____Product_App" /* App */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = App; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Auth" /* Auth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Auth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_BCrypt" /* BCrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BCrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2988,6 +3093,7 @@
 		"_____Product_Core" /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Essentials" /* Essentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Essentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Fluent" /* Fluent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Fluent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_FluentMySQL" /* FluentMySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FluentMySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_FluentSQLite" /* FluentSQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FluentSQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_HMAC" /* HMAC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HMAC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_HTTP" /* HTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2996,6 +3102,7 @@
 		"_____Product_JSON" /* JSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Jay" /* Jay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Jay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Leaf" /* Leaf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Leaf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_MySQL" /* MySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Node" /* Node.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Node.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_PathIndexable" /* PathIndexable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PathIndexable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Polymorphic" /* Polymorphic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Polymorphic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3015,6 +3122,7 @@
 		"_____Product_TypeSafeRouting" /* TypeSafeRouting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TypeSafeRouting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_URI" /* URI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = URI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Vapor" /* Vapor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Vapor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_VaporMySQL" /* VaporMySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VaporMySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_VaporSQLite" /* VaporSQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VaporSQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_WebSockets" /* WebSockets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WebSockets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_libc" /* libc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3065,6 +3173,9 @@
 				_LinkFileRef_SQLite_via_App /* SQLite.framework in Frameworks */,
 				_LinkFileRef_FluentSQLite_via_App /* FluentSQLite.framework in Frameworks */,
 				_LinkFileRef_VaporSQLite_via_App /* VaporSQLite.framework in Frameworks */,
+				_LinkFileRef_MySQL_via_App /* MySQL.framework in Frameworks */,
+				_LinkFileRef_FluentMySQL_via_App /* FluentMySQL.framework in Frameworks */,
+				_LinkFileRef_VaporMySQL_via_App /* VaporMySQL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3243,6 +3354,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		"___LinkPhase_FluentMySQL" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_PathIndexable_via_FluentMySQL /* PathIndexable.framework in Frameworks */,
+				_LinkFileRef_Polymorphic_via_FluentMySQL /* Polymorphic.framework in Frameworks */,
+				_LinkFileRef_Node_via_FluentMySQL /* Node.framework in Frameworks */,
+				_LinkFileRef_libc_via_FluentMySQL /* libc.framework in Frameworks */,
+				_LinkFileRef_Core_via_FluentMySQL /* Core.framework in Frameworks */,
+				_LinkFileRef_Jay_via_FluentMySQL /* Jay.framework in Frameworks */,
+				_LinkFileRef_JSON_via_FluentMySQL /* JSON.framework in Frameworks */,
+				_LinkFileRef_MySQL_via_FluentMySQL /* MySQL.framework in Frameworks */,
+				_LinkFileRef_Fluent_via_FluentMySQL /* Fluent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		"___LinkPhase_FluentSQLite" /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
@@ -3367,6 +3494,20 @@
 				_LinkFileRef_PathIndexable_via_Leaf /* PathIndexable.framework in Frameworks */,
 				_LinkFileRef_Polymorphic_via_Leaf /* Polymorphic.framework in Frameworks */,
 				_LinkFileRef_Node_via_Leaf /* Node.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_MySQL" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_PathIndexable_via_MySQL /* PathIndexable.framework in Frameworks */,
+				_LinkFileRef_Polymorphic_via_MySQL /* Polymorphic.framework in Frameworks */,
+				_LinkFileRef_Node_via_MySQL /* Node.framework in Frameworks */,
+				_LinkFileRef_libc_via_MySQL /* libc.framework in Frameworks */,
+				_LinkFileRef_Core_via_MySQL /* Core.framework in Frameworks */,
+				_LinkFileRef_Jay_via_MySQL /* Jay.framework in Frameworks */,
+				_LinkFileRef_JSON_via_MySQL /* JSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3708,6 +3849,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		"___LinkPhase_VaporMySQL" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_PathIndexable_via_VaporMySQL /* PathIndexable.framework in Frameworks */,
+				_LinkFileRef_Polymorphic_via_VaporMySQL /* Polymorphic.framework in Frameworks */,
+				_LinkFileRef_Node_via_VaporMySQL /* Node.framework in Frameworks */,
+				_LinkFileRef_libc_via_VaporMySQL /* libc.framework in Frameworks */,
+				_LinkFileRef_Core_via_VaporMySQL /* Core.framework in Frameworks */,
+				_LinkFileRef_Jay_via_VaporMySQL /* Jay.framework in Frameworks */,
+				_LinkFileRef_JSON_via_VaporMySQL /* JSON.framework in Frameworks */,
+				_LinkFileRef_MySQL_via_VaporMySQL /* MySQL.framework in Frameworks */,
+				_LinkFileRef_Fluent_via_VaporMySQL /* Fluent.framework in Frameworks */,
+				_LinkFileRef_FluentMySQL_via_VaporMySQL /* FluentMySQL.framework in Frameworks */,
+				_LinkFileRef_CLibreSSL_via_VaporMySQL /* CLibreSSL.framework in Frameworks */,
+				_LinkFileRef_Essentials_via_VaporMySQL /* Essentials.framework in Frameworks */,
+				_LinkFileRef_Random_via_VaporMySQL /* Random.framework in Frameworks */,
+				_LinkFileRef_BCrypt_via_VaporMySQL /* BCrypt.framework in Frameworks */,
+				_LinkFileRef_Cipher_via_VaporMySQL /* Cipher.framework in Frameworks */,
+				_LinkFileRef_Hash_via_VaporMySQL /* Hash.framework in Frameworks */,
+				_LinkFileRef_HMAC_via_VaporMySQL /* HMAC.framework in Frameworks */,
+				_LinkFileRef_SocksCore_via_VaporMySQL /* SocksCore.framework in Frameworks */,
+				_LinkFileRef_Socks_via_VaporMySQL /* Socks.framework in Frameworks */,
+				_LinkFileRef_TLS_via_VaporMySQL /* TLS.framework in Frameworks */,
+				_LinkFileRef_URI_via_VaporMySQL /* URI.framework in Frameworks */,
+				_LinkFileRef_Transport_via_VaporMySQL /* Transport.framework in Frameworks */,
+				_LinkFileRef_HTTP_via_VaporMySQL /* HTTP.framework in Frameworks */,
+				_LinkFileRef_SMTP_via_VaporMySQL /* SMTP.framework in Frameworks */,
+				_LinkFileRef_WebSockets_via_VaporMySQL /* WebSockets.framework in Frameworks */,
+				_LinkFileRef_Console_via_VaporMySQL /* Console.framework in Frameworks */,
+				_LinkFileRef_TurnstileCrypto_via_VaporMySQL /* TurnstileCrypto.framework in Frameworks */,
+				_LinkFileRef_Turnstile_via_VaporMySQL /* Turnstile.framework in Frameworks */,
+				_LinkFileRef_TurnstileWeb_via_VaporMySQL /* TurnstileWeb.framework in Frameworks */,
+				_LinkFileRef_Leaf_via_VaporMySQL /* Leaf.framework in Frameworks */,
+				_LinkFileRef_Cookies_via_VaporMySQL /* Cookies.framework in Frameworks */,
+				_LinkFileRef_Cache_via_VaporMySQL /* Cache.framework in Frameworks */,
+				_LinkFileRef_Auth_via_VaporMySQL /* Auth.framework in Frameworks */,
+				_LinkFileRef_Routing_via_VaporMySQL /* Routing.framework in Frameworks */,
+				_LinkFileRef_HTTPRouting_via_VaporMySQL /* HTTPRouting.framework in Frameworks */,
+				_LinkFileRef_Sessions_via_VaporMySQL /* Sessions.framework in Frameworks */,
+				_LinkFileRef_Settings_via_VaporMySQL /* Settings.framework in Frameworks */,
+				_LinkFileRef_TypeSafeRouting_via_VaporMySQL /* TypeSafeRouting.framework in Frameworks */,
+				_LinkFileRef_Vapor_via_VaporMySQL /* Vapor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		"___LinkPhase_VaporSQLite" /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
@@ -3786,14 +3973,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0281E7D61D9E1BAE00DC3AE5 /* sqlite */ = {
-			isa = PBXGroup;
-			children = (
-				0281E7D71D9E1BAE00DC3AE5 /* database.sqlite */,
-			);
-			path = sqlite;
-			sourceTree = "<group>";
-		};
 		Dependencies_ /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
@@ -3829,9 +4008,12 @@
 				"_______Group_Cache" /* Cache */,
 				"_______Group_Routing" /* Routing */,
 				"_______Group_FluentSQLite" /* FluentSQLite */,
+				"_______Group_MySQL" /* MySQL */,
 				"_______Group_HMAC" /* HMAC */,
 				"_______Group_URI" /* URI */,
 				"_______Group_PathIndexable" /* PathIndexable */,
+				"_______Group_FluentMySQL" /* FluentMySQL */,
+				"_______Group_VaporMySQL" /* VaporMySQL */,
 				"_______Group_Random" /* Random */,
 				"_______Group_TurnstileCrypto" /* TurnstileCrypto */,
 				"_______Group_TypeSafeRouting" /* TypeSafeRouting */,
@@ -3845,13 +4027,13 @@
 			isa = PBXGroup;
 			children = (
 				__PBXFileRef_Package.swift /* Package.swift */,
-				0281E7D61D9E1BAE00DC3AE5 /* sqlite */,
 				"_____Configs_" /* Configs */,
 				"_____Sources_" /* Sources */,
 				__PBXFileRef_Config /* Config */,
 				__PBXFileRef_Localization /* Localization */,
 				__PBXFileRef_Public /* Public */,
 				__PBXFileRef_Resources /* Resources */,
+				__PBXFileRef_sqlite /* sqlite */,
 				Dependencies_ /* Dependencies */,
 				"____Products_" /* Products */,
 			);
@@ -3900,6 +4082,9 @@
 				"_____Product_SQLite" /* SQLite.framework */,
 				"_____Product_FluentSQLite" /* FluentSQLite.framework */,
 				"_____Product_VaporSQLite" /* VaporSQLite.framework */,
+				"_____Product_MySQL" /* MySQL.framework */,
+				"_____Product_FluentMySQL" /* FluentMySQL.framework */,
+				"_____Product_VaporMySQL" /* VaporMySQL.framework */,
 				"_____Product_App" /* App */,
 			);
 			name = Products;
@@ -4759,6 +4944,16 @@
 			path = "Packages/Fluent-1.0.1/Sources/Fluent";
 			sourceTree = "<group>";
 		};
+		"_______Group_FluentMySQL" /* FluentMySQL */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/FluentMySQL-1.0.0/Sources/FluentMySQL/MySQLDriver.swift" /* MySQLDriver.swift */,
+				"__PBXFileRef_Packages/FluentMySQL-1.0.0/Sources/FluentMySQL/MySQLSerializer.swift" /* MySQLSerializer.swift */,
+			);
+			name = FluentMySQL;
+			path = "Packages/FluentMySQL-1.0.0/Sources/FluentMySQL";
+			sourceTree = "<group>";
+		};
 		"_______Group_FluentSQLite" /* FluentSQLite */ = {
 			isa = PBXGroup;
 			children = (
@@ -4926,6 +5121,24 @@
 			);
 			name = Leaf;
 			path = "Packages/Leaf-1.0.1/Sources/Leaf";
+			sourceTree = "<group>";
+		};
+		"_______Group_MySQL" /* MySQL */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Bind+Node.swift" /* Bind+Node.swift */,
+				"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Bind.swift" /* Bind.swift */,
+				"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Binds.swift" /* Binds.swift */,
+				"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Connection.swift" /* Connection.swift */,
+				"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Database.swift" /* Database.swift */,
+				"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Error.swift" /* Error.swift */,
+				"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Field+Variant.swift" /* Field+Variant.swift */,
+				"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Field.swift" /* Field.swift */,
+				"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/Fields.swift" /* Fields.swift */,
+				"__PBXFileRef_Packages/MySQL-1.0.1/Sources/MySQL/MySQL+Node.swift" /* MySQL+Node.swift */,
+			);
+			name = MySQL;
+			path = "Packages/MySQL-1.0.1/Sources/MySQL";
 			sourceTree = "<group>";
 		};
 		"_______Group_Node" /* Node */ = {
@@ -5310,6 +5523,15 @@
 			path = "Packages/Vapor-1.0.2/Sources/Vapor";
 			sourceTree = "<group>";
 		};
+		"_______Group_VaporMySQL" /* VaporMySQL */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/VaporMySQL-1.0.0/Sources/VaporMySQL/Provider.swift" /* Provider.swift */,
+			);
+			name = VaporMySQL;
+			path = "Packages/VaporMySQL-1.0.0/Sources/VaporMySQL";
+			sourceTree = "<group>";
+		};
 		"_______Group_VaporSQLite" /* VaporSQLite */ = {
 			isa = PBXGroup;
 			children = (
@@ -5403,6 +5625,9 @@
 				__Dependency_SQLite /* PBXTargetDependency */,
 				__Dependency_FluentSQLite /* PBXTargetDependency */,
 				__Dependency_VaporSQLite /* PBXTargetDependency */,
+				__Dependency_MySQL /* PBXTargetDependency */,
+				__Dependency_FluentMySQL /* PBXTargetDependency */,
+				__Dependency_VaporMySQL /* PBXTargetDependency */,
 			);
 			name = App;
 			productName = App;
@@ -5673,6 +5898,31 @@
 			productReference = "_____Product_Fluent" /* Fluent.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		"______Target_FluentMySQL" /* FluentMySQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_FluentMySQL" /* Build configuration list for PBXNativeTarget "FluentMySQL" */;
+			buildPhases = (
+				CompilePhase_FluentMySQL /* Sources */,
+				"___LinkPhase_FluentMySQL" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_PathIndexable /* PBXTargetDependency */,
+				__Dependency_Polymorphic /* PBXTargetDependency */,
+				__Dependency_Node /* PBXTargetDependency */,
+				__Dependency_Core /* PBXTargetDependency */,
+				__Dependency_libc /* PBXTargetDependency */,
+				__Dependency_Jay /* PBXTargetDependency */,
+				__Dependency_JSON /* PBXTargetDependency */,
+				__Dependency_MySQL /* PBXTargetDependency */,
+				__Dependency_Fluent /* PBXTargetDependency */,
+			);
+			name = FluentMySQL;
+			productName = FluentMySQL;
+			productReference = "_____Product_FluentMySQL" /* FluentMySQL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		"______Target_FluentSQLite" /* FluentSQLite */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = "_______Confs_FluentSQLite" /* Build configuration list for PBXNativeTarget "FluentSQLite" */;
@@ -5870,6 +6120,29 @@
 			name = Leaf;
 			productName = Leaf;
 			productReference = "_____Product_Leaf" /* Leaf.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_MySQL" /* MySQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_MySQL" /* Build configuration list for PBXNativeTarget "MySQL" */;
+			buildPhases = (
+				CompilePhase_MySQL /* Sources */,
+				"___LinkPhase_MySQL" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_PathIndexable /* PBXTargetDependency */,
+				__Dependency_Polymorphic /* PBXTargetDependency */,
+				__Dependency_Node /* PBXTargetDependency */,
+				__Dependency_Core /* PBXTargetDependency */,
+				__Dependency_libc /* PBXTargetDependency */,
+				__Dependency_Jay /* PBXTargetDependency */,
+				__Dependency_JSON /* PBXTargetDependency */,
+			);
+			name = MySQL;
+			productName = MySQL;
+			productReference = "_____Product_MySQL" /* MySQL.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		"______Target_Node" /* Node */ = {
@@ -6380,6 +6653,61 @@
 			productReference = "_____Product_Vapor" /* Vapor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		"______Target_VaporMySQL" /* VaporMySQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_VaporMySQL" /* Build configuration list for PBXNativeTarget "VaporMySQL" */;
+			buildPhases = (
+				CompilePhase_VaporMySQL /* Sources */,
+				"___LinkPhase_VaporMySQL" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_PathIndexable /* PBXTargetDependency */,
+				__Dependency_Polymorphic /* PBXTargetDependency */,
+				__Dependency_Node /* PBXTargetDependency */,
+				__Dependency_Core /* PBXTargetDependency */,
+				__Dependency_libc /* PBXTargetDependency */,
+				__Dependency_Jay /* PBXTargetDependency */,
+				__Dependency_JSON /* PBXTargetDependency */,
+				__Dependency_MySQL /* PBXTargetDependency */,
+				__Dependency_Fluent /* PBXTargetDependency */,
+				__Dependency_FluentMySQL /* PBXTargetDependency */,
+				__Dependency_CLibreSSL /* PBXTargetDependency */,
+				__Dependency_BCrypt /* PBXTargetDependency */,
+				__Dependency_Cipher /* PBXTargetDependency */,
+				__Dependency_Essentials /* PBXTargetDependency */,
+				__Dependency_Hash /* PBXTargetDependency */,
+				__Dependency_HMAC /* PBXTargetDependency */,
+				__Dependency_Random /* PBXTargetDependency */,
+				__Dependency_Socks /* PBXTargetDependency */,
+				__Dependency_SocksCore /* PBXTargetDependency */,
+				__Dependency_TLS /* PBXTargetDependency */,
+				__Dependency_HTTP /* PBXTargetDependency */,
+				__Dependency_SMTP /* PBXTargetDependency */,
+				__Dependency_Transport /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_WebSockets /* PBXTargetDependency */,
+				__Dependency_Console /* PBXTargetDependency */,
+				__Dependency_Turnstile /* PBXTargetDependency */,
+				__Dependency_TurnstileCrypto /* PBXTargetDependency */,
+				__Dependency_TurnstileWeb /* PBXTargetDependency */,
+				__Dependency_Leaf /* PBXTargetDependency */,
+				__Dependency_Auth /* PBXTargetDependency */,
+				__Dependency_Cache /* PBXTargetDependency */,
+				__Dependency_Cookies /* PBXTargetDependency */,
+				__Dependency_HTTPRouting /* PBXTargetDependency */,
+				__Dependency_Routing /* PBXTargetDependency */,
+				__Dependency_Sessions /* PBXTargetDependency */,
+				__Dependency_Settings /* PBXTargetDependency */,
+				__Dependency_TypeSafeRouting /* PBXTargetDependency */,
+				__Dependency_Vapor /* PBXTargetDependency */,
+			);
+			name = VaporMySQL;
+			productName = VaporMySQL;
+			productReference = "_____Product_VaporMySQL" /* VaporMySQL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		"______Target_VaporSQLite" /* VaporSQLite */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = "_______Confs_VaporSQLite" /* Build configuration list for PBXNativeTarget "VaporSQLite" */;
@@ -6542,6 +6870,9 @@
 				"______Target_SQLite" /* SQLite */,
 				"______Target_FluentSQLite" /* FluentSQLite */,
 				"______Target_VaporSQLite" /* VaporSQLite */,
+				"______Target_MySQL" /* MySQL */,
+				"______Target_FluentMySQL" /* FluentMySQL */,
+				"______Target_VaporMySQL" /* VaporMySQL */,
 				"______Target_App" /* App */,
 			);
 		};
@@ -7375,6 +7706,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CompilePhase_FluentMySQL /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/FluentMySQL-1.0.0/Sources/FluentMySQL/MySQLDriver.swift" /* MySQLDriver.swift in Sources */,
+				"__src_cc_ref_Packages/FluentMySQL-1.0.0/Sources/FluentMySQL/MySQLSerializer.swift" /* MySQLSerializer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CompilePhase_FluentSQLite /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -7533,6 +7873,23 @@
 				"__src_cc_ref_Packages/Leaf-1.0.1/Sources/Leaf/Tag/Models/Raw.swift" /* Tag/Models/Raw.swift in Sources */,
 				"__src_cc_ref_Packages/Leaf-1.0.1/Sources/Leaf/Tag/Models/Uppercased.swift" /* Tag/Models/Uppercased.swift in Sources */,
 				"__src_cc_ref_Packages/Leaf-1.0.1/Sources/Leaf/Tag/Models/Variable.swift" /* Tag/Models/Variable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_MySQL /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Bind+Node.swift" /* Bind+Node.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Bind.swift" /* Bind.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Binds.swift" /* Binds.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Connection.swift" /* Connection.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Database.swift" /* Database.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Error.swift" /* Error.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Field+Variant.swift" /* Field+Variant.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Field.swift" /* Field.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/Fields.swift" /* Fields.swift in Sources */,
+				"__src_cc_ref_Packages/MySQL-1.0.1/Sources/MySQL/MySQL+Node.swift" /* MySQL+Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7899,6 +8256,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CompilePhase_VaporMySQL /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/VaporMySQL-1.0.0/Sources/VaporMySQL/Provider.swift" /* Provider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CompilePhase_VaporSQLite /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -7942,202 +8307,217 @@
 		__Dependency_Auth /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Auth" /* Auth */;
-			targetProxy = 0281E7CA1D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26461D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_BCrypt /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_BCrypt" /* BCrypt */;
-			targetProxy = 0281E7B11D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB262D1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_CLibreSSL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_CLibreSSL" /* CLibreSSL */;
-			targetProxy = 0281E7B01D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB262C1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Cache /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Cache" /* Cache */;
-			targetProxy = 0281E7CC1D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26481D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Cipher /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Cipher" /* Cipher */;
-			targetProxy = 0281E7B41D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26301D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Console /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Console" /* Console */;
-			targetProxy = 0281E7C31D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB263F1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Cookies /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Cookies" /* Cookies */;
-			targetProxy = 0281E7CB1D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26471D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Core /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Core" /* Core */;
-			targetProxy = 0281E7AE1D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB262A1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Essentials /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Essentials" /* Essentials */;
-			targetProxy = 0281E7B31D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB262F1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Fluent /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Fluent" /* Fluent */;
-			targetProxy = 0281E7BA1D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26361D9E398B0029F8B3 /* PBXContainerItemProxy */;
+		};
+		__Dependency_FluentMySQL /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_FluentMySQL" /* FluentMySQL */;
+			targetProxy = 02BB26531D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_FluentSQLite /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_FluentSQLite" /* FluentSQLite */;
-			targetProxy = 0281E7D41D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26501D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_HMAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HMAC" /* HMAC */;
-			targetProxy = 0281E7B61D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26321D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_HTTP /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HTTP" /* HTTP */;
-			targetProxy = 0281E7BE1D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB263A1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_HTTPRouting /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HTTPRouting" /* HTTPRouting */;
-			targetProxy = 0281E7CD1D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26491D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Hash /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Hash" /* Hash */;
-			targetProxy = 0281E7B51D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26311D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_JSON /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_JSON" /* JSON */;
-			targetProxy = 0281E7C51D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26411D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Jay /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Jay" /* Jay */;
-			targetProxy = 0281E7C41D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26401D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Leaf /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Leaf" /* Leaf */;
-			targetProxy = 0281E7C91D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26451D9E398B0029F8B3 /* PBXContainerItemProxy */;
+		};
+		__Dependency_MySQL /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_MySQL" /* MySQL */;
+			targetProxy = 02BB26521D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Node /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Node" /* Node */;
-			targetProxy = 0281E7B91D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26351D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PathIndexable /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PathIndexable" /* PathIndexable */;
-			targetProxy = 0281E7B71D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26331D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Polymorphic /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Polymorphic" /* Polymorphic */;
-			targetProxy = 0281E7B81D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26341D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Random /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Random" /* Random */;
-			targetProxy = 0281E7B21D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB262E1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Routing /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Routing" /* Routing */;
-			targetProxy = 0281E7CE1D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB264A1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_SMTP /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SMTP" /* SMTP */;
-			targetProxy = 0281E7C11D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB263D1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_SQLite /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SQLite" /* SQLite */;
-			targetProxy = 0281E7D31D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB264F1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Sessions /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Sessions" /* Sessions */;
-			targetProxy = 0281E7CF1D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB264B1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Settings /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Settings" /* Settings */;
-			targetProxy = 0281E7D01D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB264C1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Socks /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Socks" /* Socks */;
-			targetProxy = 0281E7BB1D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26371D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_SocksCore /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_SocksCore" /* SocksCore */;
-			targetProxy = 0281E7BC1D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26381D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_TLS /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_TLS" /* TLS */;
-			targetProxy = 0281E7BD1D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26391D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Transport /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Transport" /* Transport */;
-			targetProxy = 0281E7C01D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB263C1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Turnstile /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Turnstile" /* Turnstile */;
-			targetProxy = 0281E7C61D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26421D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_TurnstileCrypto /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_TurnstileCrypto" /* TurnstileCrypto */;
-			targetProxy = 0281E7C71D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26431D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_TurnstileWeb /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_TurnstileWeb" /* TurnstileWeb */;
-			targetProxy = 0281E7C81D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26441D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_TypeSafeRouting /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_TypeSafeRouting" /* TypeSafeRouting */;
-			targetProxy = 0281E7D11D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB264D1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_URI /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_URI" /* URI */;
-			targetProxy = 0281E7BF1D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB263B1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Vapor /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Vapor" /* Vapor */;
-			targetProxy = 0281E7D21D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB264E1D9E398B0029F8B3 /* PBXContainerItemProxy */;
+		};
+		__Dependency_VaporMySQL /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_VaporMySQL" /* VaporMySQL */;
+			targetProxy = 02BB26541D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_VaporSQLite /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_VaporSQLite" /* VaporSQLite */;
-			targetProxy = 0281E7D51D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB26511D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_WebSockets /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_WebSockets" /* WebSockets */;
-			targetProxy = 0281E7C21D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB263E1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 		__Dependency_libc /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_libc" /* libc */;
-			targetProxy = 0281E7AF1D9E15A000DC3AE5 /* PBXContainerItemProxy */;
+			targetProxy = 02BB262B1D9E398B0029F8B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -8149,6 +8529,7 @@
 				HEADER_SEARCH_PATHS = (
 					"/Users/Hanguang/WorkSpace/Github_contribute/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include",
 					"/Users/Hanguang/WorkSpace/Github_contribute/Hello/Packages/CSQLite-1.0.0",
+					"/Users/Hanguang/WorkSpace/Github_contribute/Hello/Packages/CMySQL-1.0.0",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -8327,6 +8708,23 @@
 			};
 			name = Release;
 		};
+		_ReleaseConf_FluentMySQL /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "/Users/Hanguang/WorkSpace/Github_contribute/Hello/Packages/CMySQL-1.0.0";
+				INFOPLIST_FILE = Hello.xcodeproj/FluentMySQL_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = FluentMySQL;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		_ReleaseConf_FluentSQLite /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -8454,6 +8852,23 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = Leaf;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_MySQL /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "/Users/Hanguang/WorkSpace/Github_contribute/Hello/Packages/CMySQL-1.0.0";
+				INFOPLIST_FILE = Hello.xcodeproj/MySQL_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = MySQL;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SWIFT_VERSION = 3.0;
@@ -8775,6 +9190,26 @@
 			};
 			name = Release;
 		};
+		_ReleaseConf_VaporMySQL /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = (
+					"/Users/Hanguang/WorkSpace/Github_contribute/Hello/Packages/CMySQL-1.0.0",
+					"/Users/Hanguang/WorkSpace/Github_contribute/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include",
+				);
+				INFOPLIST_FILE = Hello.xcodeproj/VaporMySQL_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = VaporMySQL;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		_ReleaseConf_VaporSQLite /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -8835,6 +9270,7 @@
 				HEADER_SEARCH_PATHS = (
 					"/Users/Hanguang/WorkSpace/Github_contribute/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include",
 					"/Users/Hanguang/WorkSpace/Github_contribute/Hello/Packages/CSQLite-1.0.0",
+					"/Users/Hanguang/WorkSpace/Github_contribute/Hello/Packages/CMySQL-1.0.0",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -9024,6 +9460,24 @@
 			};
 			name = Debug;
 		};
+		"___DebugConf_FluentMySQL" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "/Users/Hanguang/WorkSpace/Github_contribute/Hello/Packages/CMySQL-1.0.0";
+				INFOPLIST_FILE = Hello.xcodeproj/FluentMySQL_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = FluentMySQL;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
 		"___DebugConf_FluentSQLite" /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -9158,6 +9612,24 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = Leaf;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_MySQL" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "/Users/Hanguang/WorkSpace/Github_contribute/Hello/Packages/CMySQL-1.0.0";
+				INFOPLIST_FILE = Hello.xcodeproj/MySQL_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = MySQL;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -9499,6 +9971,27 @@
 			};
 			name = Debug;
 		};
+		"___DebugConf_VaporMySQL" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = (
+					"/Users/Hanguang/WorkSpace/Github_contribute/Hello/Packages/CMySQL-1.0.0",
+					"/Users/Hanguang/WorkSpace/Github_contribute/Hello/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include",
+				);
+				INFOPLIST_FILE = Hello.xcodeproj/VaporMySQL_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = VaporMySQL;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
 		"___DebugConf_VaporSQLite" /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -9680,6 +10173,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
+		"_______Confs_FluentMySQL" /* Build configuration list for PBXNativeTarget "FluentMySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_FluentMySQL" /* Debug */,
+				_ReleaseConf_FluentMySQL /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		"_______Confs_FluentSQLite" /* Build configuration list for PBXNativeTarget "FluentSQLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -9748,6 +10250,15 @@
 			buildConfigurations = (
 				"___DebugConf_Leaf" /* Debug */,
 				_ReleaseConf_Leaf /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_MySQL" /* Build configuration list for PBXNativeTarget "MySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_MySQL" /* Debug */,
+				_ReleaseConf_MySQL /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -9919,6 +10430,15 @@
 			buildConfigurations = (
 				"___DebugConf_Vapor" /* Debug */,
 				_ReleaseConf_Vapor /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_VaporMySQL" /* Build configuration list for PBXNativeTarget "VaporMySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_VaporMySQL" /* Debug */,
+				_ReleaseConf_VaporMySQL /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
