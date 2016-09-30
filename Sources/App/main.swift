@@ -2,8 +2,7 @@ import Vapor
 import HTTP
 import VaporSQLite
 
-let sqlite = try VaporSQLite.Provider(path: "/home/b/sqlite_travel/Database/database.sqlite")
-let drop = Droplet(preparations:[Todo.self], providers:[sqlite])
+let drop = Droplet(preparations:[Todo.self], providers:[VaporSQLite.Provider.self])
 
 // Home page
 drop.get { req in
