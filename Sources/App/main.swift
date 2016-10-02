@@ -4,6 +4,7 @@ import HTTP
 import VaporMySQL
 
 let drop = Droplet(preparations:[Todo.self, Post.self], providers:[VaporMySQL.Provider.self])
+let tc = TodoController()
 
 // Home page
 drop.get { req in
@@ -47,7 +48,7 @@ drop.get("*") { (req) -> ResponseRepresentable in
 //    return
 //}
 
-
 drop.resource("posts", PostController())
+drop.resource("todos", TodoController())
 
 drop.run()
