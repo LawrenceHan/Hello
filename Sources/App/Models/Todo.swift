@@ -30,16 +30,6 @@ final class Todo: Model {
     }
 }
 
-extension Todo {
-    /**
-     This will automatically fetch from database, using example here to load
-     automatically for example. Remove on real models.
-     */
-    public convenience init?(from string: String) throws {
-        self.init(name: string)
-    }
-}
-
 extension Todo: Preparation {
     // Preparations
     static func prepare(_ database: Database) throws {
